@@ -9,17 +9,17 @@ It consists of 280 entries. For each entry, three annotators considered a word f
 
 The words for the dataset were sampled as follows: a Global Anchors model was asked to produce top 10 changed words for 2001 as compared to 2000, ..., 2014 as compared to 2013, producing 140 words that may have experienced a semantic shift during one of those years. For each of those words, we then picked a filler from a the same frequency decile and added it to the dataset. Words that were picked as fillers contain "0" in the column "LABEL"; others contain "1". Words with LABEl=1 also contain a value in column RATING; e. g. the first word from a top-10 has a rating of 1 and the tenth word has a rating of 10.
 
-# models
+# algos
 
-The "models" directory contains the models that we used to trace semantic shifts in Russian words, namely the procrustes alignment model, the global anchors model, the Kendall tau model and the Jaccard measire model.
+The "algos" directory contains the algos that we used to trace semantic shifts in Russian words, namely the procrustes alignment model, the global anchors model, the Kendall tau model and the Jaccard measire model.
 
-# using the models
+# using the algos
 
 If you have two models, 2000.model and 2014.model, trained upon texts from 2000 and 2014 respectively, and you wish to evaluate how much semantic change the word "несогласный" has experienced from 2000 to 2014, you can run the script score_word as follows:
 ```
 python3 score_word.py -w несогласный -m 2000.model -m 2014.model
 ```
-This will print in stdout the scores according to each of the 4 models:
+This will print in stdout the scores according to each of the 4 algos:
 
 ```
 KendallTau score: -0.05795918367346939 (from -1 to 1)
