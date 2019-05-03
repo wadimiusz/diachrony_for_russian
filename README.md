@@ -1,4 +1,4 @@
-# diachrony_for_russian
+# Tracing semantic shifts for Russian
 This repository contains the models and the dataset related to the paper "Tracing cultural diachronic semantic shifts in Russian
 using word embeddings: test sets and baselines" by Vadim Fomin, Daria Bakshandayeva, Julia Rodina and Andrey Kutuzov, accepted for the conference Dialog 2019.
 
