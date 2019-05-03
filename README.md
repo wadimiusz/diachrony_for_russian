@@ -13,6 +13,10 @@ The words for the dataset were sampled as follows: a Global Anchors model was as
 
 The "algos" directory contains our implementation of algorythms that we used to trace semantic shifts in Russian words, namely the Procrustes alignment algorhythm, the global anchors algorhythm, the Kendall tau algorhythm and the Jaccard measire algorhythm.
 
+# Models
+
+The word embedding model that we used in the mentioned paper are available at https://rusvectores.org/news_history/RNC_decades/models/.
+
 # Using the algos
 
 If you have two models, 2000.model and 2014.model, trained upon texts from 2000 and 2014 respectively, and you wish to evaluate how much semantic change the word "несогласный" has experienced from 2000 to 2014, you can run the script score_word as follows:
