@@ -11,7 +11,7 @@ The words for the dataset were sampled as follows: a Global Anchors model was as
 
 # Algos
 
-The "algos" directory contains our implementation of algorythms that we used to trace semantic shifts in Russian words, namely the procrustes alignment algorhythm, the global anchors algorhythm, the Kendall tau algorhythm and the Jaccard measire algorhythm.
+The "algos" directory contains our implementation of algorythms that we used to trace semantic shifts in Russian words, namely the Procrustes alignment algorhythm, the global anchors algorhythm, the Kendall tau algorhythm and the Jaccard measire algorhythm.
 
 # Using the algos
 
