@@ -1,11 +1,10 @@
 import gensim
-
 from utils import log
 
 
 class Jaccard(object):
     def __init__(self, w2v1: gensim.models.KeyedVectors, w2v2: gensim.models.KeyedVectors,
-                 top_n_neighbors: int, **kwargs):
+                 top_n_neighbors: int):
 
         self.w2v1 = w2v1
         self.w2v2 = w2v2
@@ -25,12 +24,13 @@ class Jaccard(object):
         else:
             raise ValueError("Problem with {word} and its neighbours".format(word=word))
 
-    def get_changes(self, top_n_changed_words: int, **kwargs):
+    def get_changes(self, top_n_changed_words: int):
         log('Doing jaccard')
         result = list()
         for num, word in enumerate(self.w2v1.wv.vocab):
             if num % 10 == 0:
-                log("{words_num} / {length}".format(words_num=num, length=len(self.w2v1.wv.vocab.keys())), end='\r')
+                log("{words_num} / {length}".format(
+                    words_num=num, length=len(self.w2v1.wv.vocab.keys())), end='\r')
 
             score = self.get_score(word=word)
             result.append((word, score))

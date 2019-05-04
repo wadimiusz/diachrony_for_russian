@@ -44,7 +44,6 @@ class ProcrustesAligner(object):
     def get_score(self, word):
         vector1 = self.w2v1.wv[word]
         vector2 = self.w2v2_changed.wv[word]
-        # score = cosine_similarity(vector1.reshape((1, -1)), vector2.reshape((1, -1)))[0][0]
         score = np.dot(vector1, vector2)  # More straightforward computation
         return score
 

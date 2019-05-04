@@ -31,8 +31,6 @@ class GlobalAnchors(object):
         w2v1_anchors = self.get_global_anchors(word, self.w2v1)
         w2v2_anchors = self.get_global_anchors(word, self.w2v2)
 
-        # score = gensim.models.KeyedVectors.cosine_similarities(
-        # w2v1_anchors, w2v2_anchors.reshape(1, -1))[0]
         score = np.dot(w2v1_anchors, w2v2_anchors)
         return score
 
