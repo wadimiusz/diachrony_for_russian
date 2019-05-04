@@ -1,7 +1,7 @@
 # Tracing semantic shifts for Russian
-This repository contains the code and the dataset related to the paper 
-*"Tracing cultural diachronic semantic shifts in Russian using word embeddings: test sets and baselines"* 
-by Vadim Fomin, Daria Bakshandayeva, Julia Rodina and Andrey Kutuzov 
+This repository features the code and the dataset related to the paper
+*"Tracing cultural diachronic semantic shifts in Russian using word embeddings: test sets and baselines"*
+by Vadim Fomin, Daria Bakshandayeva, Julia Rodina and Andrey Kutuzov
 (accepted to Dialog-2019).
 
 # Dataset
@@ -33,16 +33,16 @@ used to trace semantic shifts in Russian words:
 
 # Using the code
 
-Given two embedding models you can evaluate what is the degree of semantic change 
+Given two embedding models you can evaluate what is the degree of semantic change
 for any given word `X` (must be present in both models).
 
 Run the `score_word.py` script as follows:
 
 ```
-python3 score_word.py -w несогласный -m1 2000.model -m2 2014.model
+python3 score_word.py -w X -m1 2000.model -m2 2014.model
 ```
-This will print out the scores according to each of the 4 algorithms 
-(higher score means higher similarity between the word meaning in two models):
+This will print out the scores according to each of the 4 algorithms
+(*higher score means higher similarity* between the word meaning in two models):
 
 ```
 KendallTau score: -0.05795918367346939 (from -1 to 1)
@@ -53,5 +53,5 @@ Procrustes aligner score: 0.17986169457435608 (from -1 to 1)
 
 # Historical embedding models for Russian
 
-The word embedding models we used in the paper 
+The diachronic word embedding models we used in the paper
 are available for downloading at https://rusvectores.org/news_history/diachrony_russian/.
