@@ -19,6 +19,10 @@ to calculate the final score, a simple arithmetic mean of the scores was taken
 (the `ASSESSOR_MEAN` column) and rounded to the nearest integer. 
 The rounded value was considered to be the ground truth (the `GROUND TRUTH` column).
 
+The `macro.csv` file in the same directory contains 215 Russian words. 43 of them (35 nouns and 5 adjectives) are manually picked words that have undergone semantic changes from pre-Soviet through Soviet times. There also are four fillers per each target word (152 nouns and 20 adjectives). The target words are marked as 1 and the fillers are marked as 0. This dataset is borrowed from ```Andrey Kutuzov and Elizaveta Kuzmenko. Two centuries in two thousand words: Neural
+embedding models in detecting diachronic lexical changes. In Quantitative Approaches
+to the Russian Language, pages 95–112. Routledge, 2018.```
+
 See the paper for further details of the dataset creation.
 
 # Code
