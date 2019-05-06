@@ -6,7 +6,7 @@ by Vadim Fomin, Daria Bakshandayeva, Julia Rodina and Andrey Kutuzov
 
 # Dataset
 
-The `shifts.csv` file in the `datasets` directory contains Russian adjectives
+The `micro.csv` file in the `datasets` directory contains Russian adjectives
 manually annotated for temporal semantic shifts in the time span from 2000 to 2014.
 
 It consists of 280 entries. 
