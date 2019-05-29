@@ -6,7 +6,7 @@ by Vadim Fomin, Daria Bakshandayeva, Julia Rodina and Andrey Kutuzov
 
 # Dataset
 
-The `shifts.csv` file in the `datasets` directory contains Russian adjectives
+The `micro.csv` file in the `datasets` directory contains Russian adjectives
 manually annotated for temporal semantic shifts in the time span from 2000 to 2014.
 
 It consists of 280 entries. 
@@ -18,6 +18,8 @@ Scores are on the scale from 0 to 2;
 to calculate the final score, a simple arithmetic mean of the scores was taken
 (the `ASSESSOR_MEAN` column) and rounded to the nearest integer. 
 The rounded value was considered to be the ground truth (the `GROUND TRUTH` column).
+
+The `macro.csv` file in the same directory contains 215 Russian words. 43 of them (35 nouns and 5 adjectives) are manually picked words that have undergone semantic changes from pre-Soviet through Soviet times. There also are four fillers per each target word (152 nouns and 20 adjectives). The target words are marked as 1 and the fillers are marked as 0. 
 
 See the paper for further details of the dataset creation.
 
