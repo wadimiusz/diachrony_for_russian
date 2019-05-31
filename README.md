@@ -3,7 +3,7 @@ This repository features the code and the dataset related to the paper
 *"Tracing cultural diachronic semantic shifts in Russian using word embeddings: test sets and baselines"*
 by Vadim Fomin, Daria Bakshandayeva, Julia Rodina and Andrey Kutuzov
 (accepted to Dialog-2019).
-The slides of the presentation used during Dialog-2019 are available at ```dialogue-slides.pdf```
+The slides of the presentation used during Dialog-2019 are available at [dialogue_slides.pdf](https://github.com/wadimiusz/diachrony_for_russian/blob/master/dialogue_slides.pdf).
 
 # Dataset
 
