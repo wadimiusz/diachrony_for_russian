@@ -1,6 +1,6 @@
 # Tracing semantic shifts for Russian
 This repository features the code and the dataset related to the paper
-*"Tracing cultural diachronic semantic shifts in Russian using word embeddings: test sets and baselines"*
+*"[Tracing cultural diachronic semantic shifts in Russian using word embeddings: test sets and baselines](http://www.dialog-21.ru/media/4598/fominvplusetal-116.pdf)"*
 by Vadim Fomin, Daria Bakshandayeva, Julia Rodina and Andrey Kutuzov
 (accepted to Dialog-2019).
 The slides of the presentation used during Dialog-2019 are available at [dialogue_slides.pdf](https://github.com/wadimiusz/diachrony_for_russian/blob/master/dialogue_slides.pdf).
@@ -58,3 +58,15 @@ Procrustes aligner score: 0.17986169457435608 (from -1 to 1)
 
 The diachronic word embedding models we used in the paper
 are available for downloading at https://rusvectores.org/news_history/diachrony_russian/.
+
+# BibTex
+```
+@article{fomin-et-al-2019,
+  title={Tracing cultural diachronic semantic shifts in {R}ussian using word embeddings: test sets and baselines},
+  author={Fomin, Vadim and Bakshandaeva, Daria and Rodina, Julia and Kutuzov, Andrey},
+  journal={Komp'yuternaya Lingvistika i Intellektual'nye Tekhnologii: Dialog conference},
+  pages={203--218},
+  url={http://www.dialog-21.ru/media/4598/fominvplusetal-116.pdf},
+  year={2019}
+}
+```
