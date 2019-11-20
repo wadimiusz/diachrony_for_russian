@@ -22,13 +22,17 @@ def main():
 
     model1 = load_model(args.model1)
     model2 = load_model(args.model2)   
-
-    # print("Procrustes aligner score: {} (from -1 to 1)".format(
     
-    xyz0 = ProcrustesAligner(model1, model2).run_scores()
+    result = ProcrustesAligner(model1, model2).run_scores()
     
-    for x, y in xyz0[0:500]:
+    for x, y in result[0:50]:
+        m1_similars = [word for word, score in model1.most_similar(x, topn=10)]
+        m2_similars = [word for word, score in model2.most_similar(x, topn=10)]           
+        
         print(f"{x}: {y}")
+        print("\tSoviet: " + ", ".join(m1_similars))
+        print("\tPost-soviet: " + ", ".join(m2_similars))
+        print()
 
 
 if __name__ == "__main__":
