@@ -1,0 +1,13 @@
+tqdm
+requests
+bs4
+percache
+gensim
+krippendorff
+numpy
+pandas
+scipy
+scikit-learn
+nltk
+matplotlib
+lxml
