@@ -37,7 +37,7 @@ def main():
 
     d = dict(scores)
 
-    ordered = OrderedDict(sorted(d.items(), key=lambda t: -t[1]))
+    ordered = OrderedDict(sorted(d.items(), key=lambda t: t[1]))
 
     with open('results_ga.txt', 'w') as f:
         for x in ordered.items():
