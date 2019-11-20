@@ -1,0 +1,36 @@
+Гипотеза об употреблении слова "боже" подтвердилась - советское употребление отличается существенно
+и в похожей мере и от царского, и от нынешнего. Нынешнее от царского отличается гораздщ меньше, т.е.,
+оно вернулось. :)
+
+python3 score_word.py -w боже_NOUN -m1 ../post-soviet.bin -m2 ../pre-soviet.bin
+2019-11-20 16:56:55,474 : INFO : loading projection weights from ../post-soviet.bin
+2019-11-20 16:57:17,898 : INFO : loaded (140317, 300) matrix from ../post-soviet.bin
+2019-11-20 16:57:17,899 : INFO : precomputing L2-norms of word weight vectors
+2019-11-20 16:57:19,102 : INFO : loading projection weights from ../pre-soviet.bin
+2019-11-20 16:57:38,396 : INFO : loaded (123573, 300) matrix from ../pre-soviet.bin
+2019-11-20 16:57:38,397 : INFO : precomputing L2-norms of word weight vectors
+KendallTau score: -0.022040816326530613 (from -1 to 1)
+Jaccard score: 0.28205128205128205 (from 0 to 1)
+Global Anchors score: 0.5913384556770325 (from -1 to 1)
+
+python3 score_word.py -w боже_NOUN -m1 ../post-soviet.bin -m2 ../soviet.bin
+2019-11-20 16:57:58,849 : INFO : loading projection weights from ../post-soviet.bin
+2019-11-20 16:58:22,128 : INFO : loaded (140317, 300) matrix from ../post-soviet.bin
+2019-11-20 16:58:22,128 : INFO : precomputing L2-norms of word weight vectors
+2019-11-20 16:58:23,333 : INFO : loading projection weights from ../soviet.bin
+2019-11-20 16:58:46,474 : INFO : loaded (148357, 300) matrix from ../soviet.bin
+2019-11-20 16:58:46,474 : INFO : precomputing L2-norms of word weight vectors
+KendallTau score: 0.12 (from -1 to 1)
+Jaccard score: 0.3333333333333333 (from 0 to 1)
+Global Anchors score: 0.7131523489952087 (from -1 to 1)
+
+python3 score_word.py -w боже_NOUN -m1 ../soviet.bin -m2 ../pre-soviet.bin
+2019-11-20 16:59:15,367 : INFO : loading projection weights from ../soviet.bin
+2019-11-20 16:59:38,183 : INFO : loaded (148357, 300) matrix from ../soviet.bin
+2019-11-20 16:59:38,183 : INFO : precomputing L2-norms of word weight vectors
+2019-11-20 16:59:39,456 : INFO : loading projection weights from ../pre-soviet.bin
+2019-11-20 16:59:58,510 : INFO : loaded (123573, 300) matrix from ../pre-soviet.bin
+2019-11-20 16:59:58,510 : INFO : precomputing L2-norms of word weight vectors
+KendallTau score: 0.09551020408163265 (from -1 to 1)
+Jaccard score: 0.4084507042253521 (from 0 to 1)
+Global Anchors score: 0.700459897518158 (from -1 to 1)
