@@ -21,25 +21,14 @@ def main():
         raise FileNotFoundError("File {} not found".format(args.model2))
 
     model1 = load_model(args.model1)
-    model2 = load_model(args.model2)
+    model2 = load_model(args.model2)   
 
-    if args.word not in model1.vocab:
-        raise ValueError("Word {} not in {}".format(args.word, args.model1))
-
-    if args.word not in model2.vocab:
-        raise ValueError("Word {} not in {}".format(args.word, args.model2))
-
-    print("KendallTau score: {} (from -1 to 1)".format(
-        KendallTau(model1, model2, top_n_neighbors=args.topn).get_score(args.word)))
-
-    print("Jaccard score: {} (from 0 to 1)".format(
-        Jaccard(model1, model2, args.topn).get_score(args.word)))
-
-    print("Global Anchors score: {} (from -1 to 1)".format(
-        GlobalAnchors(model1, model2).get_score(args.word)))
-
-    print("Procrustes aligner score: {} (from -1 to 1)".format(
-        ProcrustesAligner(model1, model2).get_score(args.word)))
+    # print("Procrustes aligner score: {} (from -1 to 1)".format(
+    
+    xyz0 = ProcrustesAligner(model1, model2).run_scores()
+    
+    for x, y in xyz0[0:500]:
+        print(f"{x}: {y}")
 
 
 if __name__ == "__main__":
