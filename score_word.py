@@ -4,6 +4,35 @@ from utils import load_model
 import os
 
 
+def rank_by_semantic_shift_degree(model1, model2):
+    wv1 = model1.wv.vocab
+    wv2 = model2.wv.vocab
+
+    top_n = 1000
+
+    print(list(wv1.keys())[:10])
+
+    print("Computing intersections of model1 and model2")
+    intersection = list(set(list(wv1.keys())[:top_n]) & set(list(wv2.keys())[:top_n]))
+
+    print("Computing the scores of semantic shifts")
+    intersection_scores = []
+
+    for word in intersection:
+        if "_NOUN" in word:
+            #rint("Procrustes aligner score: {} (from -1 to 1)".format(
+            #    ProcrustesAligner(model1, model2).get_score(word)))
+            score = Jaccard(model1, model2, 50).get_score(word)
+            if score > 0.0:
+                intersection_scores.append(tuple((word, score)))
+
+    intersection_scores = sorted(intersection_scores, key=lambda tup: tup[1])
+
+    print("All done")
+
+    return intersection_scores
+
+
 def main():
     parser = ArgumentParser()
     parser.add_argument('--word', '-w', required=True, help='word to be scored')
@@ -40,6 +69,12 @@ def main():
 
     print("Procrustes aligner score: {} (from -1 to 1)".format(
         ProcrustesAligner(model1, model2).get_score(args.word)))
+
+    ranks = rank_by_semantic_shift_degree(model1, model2)
+
+    list_of_pairs = [rank[0] + ':' + str(rank[1]) for rank in ranks[:100]]
+
+    print("\n".join(list_of_pairs))
 
 
 if __name__ == "__main__":
