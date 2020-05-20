@@ -1,0 +1,200 @@
+касьянов_PROPN: -0.09871603548526764
+	Soviet: парфен_PROPN, воззвать_VERB, ссотреть_NOUN, названый_ADJ, аникин_PROPN, дедка_NOUN, кипятись_VERB, аркадий::гайдар_PROPN, жукова_PROPN, скотница_NOUN
+	Post-soviet: кудрин_PROPN, чубайс_PROPN, примаков_PROPN, путин_PROPN, минфин_PROPN, кадыров_PROPN, президент_NOUN, немцов_PROPN, грызлов_PROPN, премьер_NOUN
+
+путин_PROPN: -0.08519107848405838
+	Soviet: -технолог_NOUN, -механик_NOUN, -строитель_NOUN, нормировщик_NOUN, авдеев_PROPN, путеец_NOUN, бойков_PROPN, пичугин_PROPN, -конструктор_NOUN, парамонов_PROPN
+	Post-soviet: ельцин_PROPN, президент_NOUN, горбачев_PROPN, кадыров_PROPN, касьянов_PROPN, примаков_PROPN, чубайс_PROPN, шеварднадзе_PROPN, назарбаев_PROPN, президент_PROPN
+
+мос_PROPN: -0.08261193335056305
+	Soviet: ссотреть_NOUN, митяй_ADV, хаим_VERB, юзя_ADV, roman_PROPN, лизочка_NOUN, сестричка_PROPN, стас_ADV, лёша_PROPN, костик_NOUN
+	Post-soviet: полимер_NOUN, силикат_NOUN, производный_NOUN, вга_PROPN, морфология_NOUN, структурно_ADV, электролит_NOUN, морфологический_ADJ, металлоорганический_ADJ, молибден_NOUN
+
+матюшин_PROPN: -0.08226782083511353
+	Soviet: шкловский_PROPN, рождественский_PROPN, кульбин_PROPN, сельвинский_PROPN, осип::мандельштам_PROPN, асеев_PROPN, пунин_PROPN, татлин_PROPN, слонимский_ADJ, венгеров_PROPN
+	Post-soviet: хабаров_PROPN, вольга_PROPN, скрипицын_PROPN, петька_PROPN, спросонья_ADV, петька_NOUN, пашка_PROPN, ребров_PROPN, клим_PROPN, караулка_NOUN
+
+ханец_NOUN: -0.07720140367746353
+	Soviet: ссотреть_NOUN, roman_PROPN, уссругой_VERB, сестричка_PROPN, спалотреть_NOUN, костик_NOUN, страгородский_ADJ, кассир_PROPN, поручик::ржевский_PROPN, two_X
+	Post-soviet: этнос_NOUN, тюркский_ADJ, народность_NOUN, нация_NOUN, тюрк_NOUN, маньчжур_NOUN, русин_NOUN, национально_ADV, арийский_ADJ, индоевропейский_ADJ
+
+трифоновский_ADJ: -0.06569957733154297
+	Soviet: ульян_PROPN, уткнться_VERB, бабки_PROPN, лизаться_VERB, зна_ADJ, ребяты_VERB, кобель_PROPN, что_PROPN, лопатинский_ADJ, чистоплюе_ADJ
+	Post-soviet: автобиографический_ADJ, исповедальный_ADJ, пародийный_ADJ, солженицынский_ADJ, набоковский_ADJ, очерковый_ADJ, повествовательный_ADJ, пастернаковский_ADJ, поэма_PROPN, пришвинский_ADJ
+
+новорусский_ADJ: -0.0597212016582489
+	Soviet: лукашевич_PROPN, с::а_PROPN, н::д_PROPN, а::н_PROPN, и::и_PROPN, н::а_PROPN, п::п_PROPN, морозов_PROPN, а::а_PROPN, тихомиров_PROPN
+	Post-soviet: викторианский_ADJ, рококо_ADV, модерн_NOUN, ампирный_ADJ, великосветский_ADJ, псевдорусский_ADJ, ампир_NOUN, старомосковский_ADJ, эклектичный_ADJ, простонародный_ADJ
+
+дан_PROPN: -0.05577953904867172
+	Soviet: мартов_PROPN, стеклов_PROPN, церетели_PROPN, либер_PROPN, милюков_PROPN, плеханов_PROPN, троцкий_PROPN, бухарин_PROPN, каменев_PROPN, зиновьев_PROPN
+	Post-soviet: тим_VERB, тим_ADJ, пулькин_PROPN, гаран_PROPN, бальтазар_PROPN, буль-буль_PROPN, буль-буль_NOUN, морен_PROPN, прутик_PROPN, дырка_PROPN
+
+вместо_PROPN: -0.05477030575275421
+	Soviet: существительное_NOUN, антецедент_NOUN, сказуемое_VERB, параметрический_ADJ, родемик_NOUN, предикатный_ADJ, атрибутивный_ADJ, едакция_NOUN, фонетически_ADV, диатеза_NOUN
+	Post-soviet: сотрудник_PROPN, областной_NOUN, цос_PROPN, гу_PROPN, пресс-центр_NOUN, ог_PROPN, увд_PROPN, нв_PROPN, известие_NOUN, префектура_NOUN
+
+неёлов_PROPN: -0.050775960087776184
+	Soviet: вильнюс_PROPN, герат_PROPN, хабаровск_PROPN, кандагар_PROPN, южнее_ADJ, кабул_PROPN, мазари-шариф_PROPN, комендант_PROPN, могилёв_PROPN, дзержинск_PROPN
+	Post-soviet: будрайтис_PROPN, марецкий_PROPN, книппер-чехов_PROPN, епиходов_PROPN, елена::андреевна_PROPN, ганна_PROPN, иннокентий::смоктуновский_PROPN, гекуба_PROPN, пробоваться_VERB, расцеловать_VERB
+
+доводчик_NOUN: -0.05035290867090225
+	Soviet: холоп_INTJ, стрельца_NOUN, тож_NOUN, может_ADJ, думный_ADJ, немчин_NOUN, стольник_NOUN, подьячий_ADJ, робята_NOUN, воевода_NOUN
+	Post-soviet: стилист_NOUN, программист_NOUN, технология_PROPN, процессор_NOUN, менеджер_NOUN, тьютор_NOUN, импрессионистский_ADJ, высокопроизводительный_ADJ, old_PROPN, дизайнер_NOUN
+
+рябков_PROPN: -0.04143012315034866
+	Soviet: дмитрий::федорович_PROPN, айболит_VERB, дымов_PROPN, аронсон_PROPN, лечащий_VERB, о::о_PROPN, ю::п_PROPN, баруздин_PROPN, шлыков_PROPN, фишман_PROPN
+	Post-soviet: катерина::ивановна_PROPN, софья::андреевна_PROPN, нина::александровна_PROPN, инка_PROPN, инка_NOUN, розочка_PROPN, митя_PROPN, сергей::сергеевич_PROPN, незнакомка_NOUN, ольга_PROPN
+
+дубай_ADJ: -0.039414480328559875
+	Soviet: титульный_ADJ, опросный_ADJ, валентин::серов_PROPN, корректурный_ADJ, офорвать_NOUN, кипренский_PROPN, пожухлой_ADJ, борисов-мусатов_PROPN, миллиметровка_NOUN, блокнотный_ADJ
+	Post-soviet: кипр_PROPN, майами_PROPN, марокко_PROPN, бенин_PROPN, пирей_PROPN, кения_PROPN, мальта_PROPN, берген_PROPN, родос_PROPN, фешенебельный_ADJ
+
+подстава_NOUN: -0.03631123527884483
+	Soviet: стреножить_ADJ, распрягать_VERB, нарочный_ADJ, взмыленный_ADJ, седлать_VERB, гонец_NOUN, пеший_NOUN, каурый_ADJ, верховый_ADJ, коломн_PROPN
+	Post-soviet: провокация_NOUN, блеф_NOUN, подкуп_NOUN, шантаж_NOUN, уличить_VERB, вранье_NOUN, жульничество_NOUN, подонок_NOUN, негодяй_NOUN, мошенник_NOUN
+
+ломакин_PROPN: -0.030616607517004013
+	Soviet: круз_PROPN, панкин_PROPN, шлыков_PROPN, величко_PROPN, военкий_NOUN, крохалев_PROPN, бойков_PROPN, набатов_PROPN, лев::сергеевич_PROPN, замполит_VERB
+	Post-soviet: забелин_PROPN, коломнин_PROPN, шевцов_PROPN, череп_PROPN, злорадно_ADV, парфен_PROPN, краб_PROPN, андрюха_NOUN, пафнутьев_PROPN, малянов_PROPN
+
+провальный_ADJ: -0.02676161378622055
+	Soviet: непробудный_ADJ, летаргический_ADJ, сморить_VERB, привидеться_VERB, мертвецкий_ADJ, наяву_NOUN, проваливаюсь_VERB, снатраница_NOUN, бодрствование_NOUN, вздыбленный_VERB
+	Post-soviet: неудачный_ADJ, несостоятельный_ADJ, удачный_ADJ, выигрышный_ADJ, неубедительной_ADJ, оптимистичный_ADJ, бесперспективный_ADJ, малоэффективный_ADJ, непроходный_ADJ, результативный_ADJ
+
+рэу_PROPN: -0.025969751179218292
+	Soviet: на_PROPN, ксюта_PROPN, ихтиандр_PROPN, аггей_PROPN, степан_PROPN, командор_PROPN, галька_PROPN, антип_PROPN, сдавленно_ADV, савушка_PROPN
+	Post-soviet: жэк_PROPN, дез_PROPN, мосгаз_PROPN, домоуправление_NOUN, жэк_NOUN, санэпидстанция_NOUN, ремонтник_NOUN, управа_NOUN, инспекция_NOUN, гаи_PROPN
+
+ненадежная_ADJ: -0.025700757279992104
+	Soviet: опустить_NOUN, страховочный_ADJ, неразобранный_ADJ, налезать_VERB, воткнуться_VERB, навешиваться_VERB, погнутый_VERB, прошить_VERB, буксировочный_ADJ, нажать_ADJ
+	Post-soviet: скучноватый_VERB, утопичный_ADJ, обожжться_VERB, подлый_NOUN, зовут-то_ADV, пупырь_NOUN, хамоватый_ADJ, архаичный_ADV, человечишка_NOUN, дрянной_ADJ
+
+кулибина_PROPN: -0.025537356734275818
+	Soviet: к::э::циолковский_PROPN, кулибин_PROPN, а.г_NOUN, и::в::курчатов_PROPN, т.г_NOUN, а::с::попов_PROPN, гвидо_PROPN, гнесина_PROPN, -отчеств_NOUN, н::е::жуковский_PROPN
+	Post-soviet: нина_PROPN, мамин_NOUN, маруся_PROPN, катерина_PROPN, мамин_ADJ, невестка_NOUN, анна::сергеевна_PROPN, антонина_PROPN, катя_NUM, бэла_PROPN
+
+ор_PROPN: -0.024188613519072533
+	Soviet: геликон_PROPN, нина::берберова_PROPN, эпоха_PROPN, кристи_PROPN, борис::зайцев_PROPN, а::к_PROPN, м::ф_PROPN, слонимский_ADJ, чл.-корр_NOUN, смоленский_PROPN
+	Post-soviet: клавдий::петровна_PROPN, тилли_PROPN, к::м_PROPN, дмитрий::алексеевич_PROPN, гаврюшин_PROPN, нонна_PROPN, шепот_ADV, пулькин_PROPN, буль-буль_NOUN, васятка_PROPN
+
+теп_PROPN: -0.024028806015849113
+	Soviet: 85-й_ADJ, карстовый_ADJ, артезианский_ADJ, сверхглубокий_ADJ, 100-метровый_ADJ, спуск_PROPN, марианский_ADJ, занесять_VERB, перевалить_VERB, 6,9_NUM
+	Post-soviet: жора_PROPN, юзть_ADV, пава_PROPN, тумба_PROPN, ты_PROPN, сём_PROPN, кязым_PROPN, сань_PROPN, сёма_PROPN, юзя_ADV
+
+на_PROPN: -0.023265033960342407
+	Soviet: рэу_PROPN, хабуг_PROPN, беслан_PROPN, валенок_PROPN, хрыч_NOUN, дева_ADJ, престарый_ADJ, ксюта_PROPN, дрий_NOUN, хрыча_NOUN
+	Post-soviet: na_PROPN, на_NOUN, полипептид_NOUN, mn_PROPN, антигенный_ADJ, кодируть_VERB, ген_VERB, рецепторный_ADJ, гомологичный_ADJ, вга_PROPN
+
+пэт_PROPN: -0.022938229143619537
+	Soviet: краснеть_NOUN, ненавидеть_PROPN, паясничать_VERB, цепенеть_NOUN, ай-я-яй_VERB, татка_PROPN, вольдемар_PROPN, ласкаться_VERB, перестать_PROPN, нелли_PROPN
+	Post-soviet: экспериментально_ADV, ультразвуковой_ADJ, гибридизация_NOUN, спектроскопия_NOUN, анализатор_NOUN, микроскопия_NOUN, аэрофотосъемка_NOUN, серологический_ADJ, селективный_ADJ, электрофорез_NOUN
+
+объект_PROPN: -0.021655187010765076
+	Soviet: уссругой_VERB, roman_PROPN, ссотреть_NOUN, баруздин_PROPN, шлыков_PROPN, арчать_VERB, рувим_VERB, геолый_NOUN, йошкар-ола_PROPN, фидель_NOUN
+	Post-soviet: тамма_PROPN, фиан_PROPN, объект_NOUN, сахаров_PROPN, комиссия_PROPN, зельдович_PROPN, п::л::капица_PROPN, тамм_PROPN, организация_PROPN, раздел_NOUN
+
+оторваваться_VERB: -0.021400921046733856
+	Soviet: отвергнутый_VERB, ставленник_NOUN, искоренить_VERB, выходец_NOUN, ассимилироваться_VERB, перекочевать_VERB, банкротиться_VERB, ромывать_ADJ, отторгать_VERB, эмигрантка_NOUN
+	Post-soviet: плица_NOUN, ренский_ADJ, пробить_ADJ, кувыркнуться_VERB, сшибить_VERB, тележный_ADJ, заклинить_VERB, задний_ADV, лязг_NOUN, погнуть_VERB
+
+тренд_NOUN: -0.021252678707242012
+	Soviet: 0.45_NUM, 0,10_NUM, веретено_NOUN, пяточный_ADJ, 10,9_NUM, 6,9_NUM, запорный_ADJ, words_X, веретено_VERB, привинтить_VERB
+	Post-soviet: тенденция_NOUN, динамика_NOUN, вектор_NOUN, кривой_NOUN, котировка_NOUN, дивергенция_NOUN, сдвиг_NOUN, конъюнктура_NOUN, константа_NOUN, закономерность_NOUN
+
+арка_PROPN: -0.02035226859152317
+	Soviet: вокс_PROPN, редакция_PROPN, редколлегия_NOUN, пакт_PROPN, редакция_NOUN, отзыв_NOUN, академия::наука_PROPN, совещание_PROPN, напечатание_NOUN, конференция_PROPN
+	Post-soviet: алтаре_NOUN, тартар_PROPN, возноситься_VERB, полуциркульный_ADJ, гравюра_PROPN, сверкающий_ADJ, исаакий_PROPN, грот_NOUN, колоннада_NOUN, трокадеро_PROPN
+
+панковский_ADJ: -0.018443716689944267
+	Soviet: делегировать_VERB, полномочный_ADJ, уполномочить_VERB, уполномоченный_VERB, губисполком_NOUN, райсовет_NOUN, волость_NOUN, иногородний_ADJ, уполномочивать_VERB, вцик_PROPN
+	Post-soviet: хипповый_ADJ, хемингуэевский_ADJ, развязный_ADJ, задорный_ADJ, субтильный_ADJ, пародировать_VERB, бурлеск_NOUN, броский_ADJ, рисованный_ADJ, глумливый_ADJ
+
+янь_PROPN: -0.017998846247792244
+	Soviet: толь_PROPN, кребс_PROPN, витковский_PROPN, -губернатор_NOUN, лукач_PROPN, ласси_PROPN, господин_NUM, клейнмихель_PROPN, инфантерия_NOUN, адъютант_PROPN
+	Post-soviet: притягиваться_VERB, эн_NOUN, взятие_PROPN, концентратор_NOUN, расцвечиваться_VERB, natura_X, симметрия_PROPN, зовти_VERB, дэ_X, палаццо_PROPN
+
+гель_PROPN: -0.017429931089282036
+	Soviet: бородин_PROPN, евгений::владимирович_PROPN, иван::алексеевич_PROPN, женя_VERB, брагин_PROPN, электронный_PROPN, элла_PROPN, и::н_PROPN, мария::степановна_PROPN, иван::афанасьевич_PROPN
+	Post-soviet: крем_VERB, гель_NOUN, молочко_ADV, лосьон_NOUN, увлажнять_VERB, бальзам_NOUN, молочко_NOUN, шампунь_NOUN, крем_NOUN, осветлять_VERB
+
+синеглазка_NOUN: -0.016316117718815804
+	Soviet: синеглазка_PROPN, дориан::грей_PROPN, офорвать_NOUN, полина::васильевна_PROPN, лизочка_NOUN, полюбоваться_VERB, лидочка_NOUN, жанна_ADV, полина_NOUN, гольбейн_PROPN
+	Post-soviet: целлофановый_ADJ, полиэтиленовый_ADJ, кило_VERB, пакета_NOUN, содержимое_VERB, грин_NOUN, бакс_NOUN, целковый_ADJ, пятилитровый_ADJ, синеглазка_PROPN
+
+васюков_PROPN: -0.016125699505209923
+	Soviet: димка_NOUN, сдавленно_ADV, чонкин_ADJ, сипло_NOUN, барбарис_PROPN, скрипуче_ADV, мясник_PROPN, колька_NOUN, хрипло_NOUN, встревоженно_ADV
+	Post-soviet: одоевский_ADJ, шепелев_PROPN, двадцатитрехлетний_ADJ, мирошниченко_PROPN, беннигсен_PROPN, хейфец_PROPN, тезкий_NOUN, олейник_PROPN, милорадович_PROPN, е::л_PROPN
+
+хамить_NOUN: -0.01567964442074299
+	Soviet: юго-восток_NOUN, алтай_PROPN, кяхт_PROPN, кобдо_PROPN, тракт_NOUN, урочище_NOUN, низовье_NOUN, чуйский_ADJ, теберда_PROPN, караванный_ADJ
+	Post-soviet: пустить_PROPN, прекратить_ADV, тихо_PROPN, перестать_PROPN, уняться_NOUN, отстать_PROPN, заткнуться_VERB, манеф_PROPN, отпустить_PROPN, прикрикивать_VERB
+
+донорство_NOUN: -0.01567242108285427
+	Soviet: ду_PROPN, лд_PROPN, подпитка_NOUN, декабрь_ADV, ларик_PROPN, понедельник_NOUN, телеграмма_PROPN, евгений::яковлевич_PROPN, простуда_ADV, получка_NOUN
+	Post-soviet: трансплантация_NOUN, онкология_NOUN, онкологический_ADJ, эпидемиология_NOUN, донорский_ADJ, легочный_ADJ, вирусология_NOUN, коронарный_ADJ, злокачественный_ADJ, воспалительный_ADJ
+
+цой_PROPN: -0.015611580573022366
+	Soviet: павлик_NOUN, горелов_PROPN, зоолог_NOUN, павлик_PROPN, быков_PROPN, матвеев_PROPN, жилин_PROPN, ермаков_PROPN, великанов_PROPN, свиридов_PROPN
+	Post-soviet: дунаевский_PROPN, гребенщиков_PROPN, леонид::утесов_PROPN, поть_VERB, лещенко_PROPN, петь_NOUN, битлз_PROPN, людмила::зыкина_PROPN, петь_VERB, спеть_NOUN
+
+е::т_PROPN: -0.014279702678322792
+	Soviet: император_PROPN, порт_PROPN, паша_NOUN, ушаков_PROPN, корфу_PROPN, величество_NOUN, нельсон_PROPN, алексей::орлов_PROPN, высочество_NOUN, фельдмаршал_VERB
+	Post-soviet: гайдар_PROPN, юмашев_PROPN, чука_PROPN, шустер_PROPN, гек_PROPN, д::а_PROPN, а::и_PROPN, абалкин_PROPN, а::б_PROPN, шерлоко::холмс_PROPN
+
+фэ_PROPN: -0.012479398399591446
+	Soviet: эн_PROPN, бэ_PROPN, лукач_PROPN, юзефович_PROPN, шен_PROPN, деревянко_PROPN, гут_VERB, хм_NOUN, -губернатор_NOUN, сильвестров_PROPN
+	Post-soviet: электрохимия_NOUN, pb_PROPN, диэлектрик_NOUN, полупроводник_NOUN, графит_NOUN, -активный_ADJ, окисел_NOUN, высокотемпературный_ADJ, расплав_NOUN, тугоплавкий_ADJ
+
+ризенкампф_PROPN: -0.012178290635347366
+	Soviet: бойков_PROPN, ю::б::харитон_PROPN, в::павлов_PROPN, ивашев_PROPN, геолый_NOUN, д::е_PROPN, планово-экономический_ADJ, потапов_ADJ, виноградов_NOUN, шлыков_PROPN
+	Post-soviet: трувор_PROPN, срамить_VERB, тамерлан_PROPN, ирод_PROPN, приам_PROPN, кучум_PROPN, проклясть_VERB, зевс_PROPN, ахилл_PROPN, менелай_PROPN
+
+сыма_PROPN: -0.00819811224937439
+	Soviet: чусовая_ADJ, амударья_PROPN, чусовая_PROPN, печора_PROPN, енисей_PROPN, исеть_PROPN, катунь_PROPN, индигирка_PROPN, озер_NOUN, бочаг_NOUN
+	Post-soviet: естествоиспытатель_NOUN, историк_NOUN, антрополог_NOUN, дидро_PROPN, древнекитайский_ADJ, палама_PROPN, с::м::соловьев_PROPN, позднейший_ADJ, геродот_PROPN, дьюь_NOUN
+
+дпа_PROPN: -0.005817253142595291
+	Soviet: измерительный_ADJ, позитронный_ADJ, жаропрочный_ADJ, пилотажный_ADJ, поляризационный_ADJ, кассета_VERB, щуп_NOUN, жаростойкий_ADJ, экстрактор_NOUN, электросварочный_ADJ
+	Post-soviet: нтс_PROPN, исполком_PROPN, сопредседатель_NOUN, ркп_PROPN, яблоко_PROPN, компартия_PROPN, солидарность_PROPN, ер_PROPN, аграрий_NOUN, активист_NOUN
+
+дэвидсон_PROPN: -0.005301593337208033
+	Soviet: синь_PROPN, лу_PROPN, синий_PROPN, даллес_PROPN, палеолог_PROPN, уэллс_PROPN, густав_PROPN, каролина_PROPN, жорж_VERB, джонсон_PROPN
+	Post-soviet: pour_PROPN, чернобурка_NOUN, пальтотец_NOUN, запаковывать_VERB, полуспортивный_ADJ, потертый_VERB, седло_VERB, сидорчук_NOUN, извинитбыть_VERB, корд_PROPN
+
+слойка_NOUN: -0.004327545408159494
+	Soviet: ломтик_NOUN, долька_NOUN, ломоть_NUM, хрустеть_ADJ, лаваш_NOUN, тмин_NOUN, изюм_NOUN, какао_NOUN, терка_NOUN, повидло_NOUN
+	Post-soviet: термоядерный_ADJ, водородный_ADJ, водородной_ADJ, криогенный_ADJ, нейтронный_ADJ, экспериментальный_ADJ, атомный_ADJ, межконтинентальный_ADJ, стендовый_ADJ, кумулятивный_ADJ
+
+евро_NOUN: -0.002896450227126479
+	Soviet: адыгеец_NOUN, мариец_NOUN, дойч_X, финный_ADJ, по-православному_ADV, ссотреть_NOUN, молдаванка_NOUN, нацмен_NOUN, баруздин_PROPN, коми_NOUN
+	Post-soviet: доллар_NOUN, иена_NOUN, франк_NOUN, рубль_NOUN, долловек_NOUN, фунт_NOUN, стерлинг_NOUN, динар_NOUN, гривна_NOUN, гривна_ADJ
+
+говорун_PROPN: -0.0002380417863605544
+	Soviet: эдик_PROPN, изя_ADV, хоттабыч_PROPN, карасик_PROPN, саул_NOUN, рыжий_PROPN, малянов_PROPN, сельма_PROPN, свинья_PROPN, деточкин_PROPN
+	Post-soviet: рукопокладывать_VERB, архимандрит_VERB, викария_NOUN, варсонофий_PROPN, архиепископ_INTJ, е::д_PROPN, ефрь_VERB, тамбовский_PROPN, равноапостольный_ADJ, в::ю_PROPN
+
+ниязов_PROPN: 0.0012235880130901933
+	Soviet: самохин_ADJ, коржов_PROPN, пичугин_PROPN, соломатин_PROPN, митрохин_PROPN, о-го-го_ADJ, арчать_VERB, кондрашов_PROPN, нателл_PROPN, ой-ой-ой_ADJ
+	Post-soviet: шеварднадзе_PROPN, туркмения_PROPN, алиев_PROPN, назарбаев_PROPN, робертсон_PROPN, тегеран_PROPN, туркменский_ADJ, никсон_PROPN, ширак_PROPN, премьер-министр_PROPN
+
+пф_NOUN: 0.0012770179891958833
+	Soviet: roman_PROPN, ссотреть_NOUN, стас_ADV, уссругой_VERB, these_X, амок_PROPN, 30,5_NUM, нетинский_ADJ, вит_PROPN, кипятись_VERB
+	Post-soviet: госбюджет_NOUN, расходование_NOUN, бюджет_NOUN, пенсионный_ADJ, казначейство_NOUN, бюджетный_ADJ, заем_NOUN, дотация_NOUN, денежный_ADJ, платеж_NOUN
+
+снг_NOUN: 0.0015756911598145962
+	Soviet: потом_PROPN, над_PROPN, свт_PROPN, вокруг_PROPN, снг_PROPN, этот_PROPN, наконец_PROPN, гд_PROPN, запах_PROPN, свт_NOUN
+	Post-soviet: вас_PROPN, тройственный_ADJ, североатлантический_ADJ, игорь::иванов_PROPN, ковальчук_PROPN, генуя_NOUN, нато_NOUN, снг_PROPN, sir_PROPN, austin_PROPN
+
+тагильский_ADJ: 0.002079837489873171
+	Soviet: изь_ADV, ворчливо_ADV, любаша_PROPN, брюзгливо_ADV, абуладзе_PROPN, лютов_PROPN, меланхолически_ADV, глуховато_ADV, вечеровский_PROPN, дронов_PROPN
+	Post-soviet: железоделательный_ADJ, стекольный_ADJ, лесопильный_ADJ, механосборочный_ADJ, медеплавильный_ADJ, чугунолитейный_ADJ, обогатительный_ADJ, паровозостроительный_ADJ, нефтеперегонный_ADJ, невьянский_ADJ
+
+найденов_PROPN: 0.0029701811727136374
+	Soviet: н::а_PROPN, муромцев_PROPN, н::н_PROPN, м::а_PROPN, шип_PROPN, в::п_PROPN, п::п_PROPN, в::а_PROPN, кудрин_PROPN, в::н_PROPN
+	Post-soviet: тридцатьчетверка_NOUN, танкист_NOUN, унтер_NOUN, хабаров_PROPN, скрипицын_PROPN, комбат_NOUN, пулеметчик_NOUN, артиллерист_NOUN, комполка_NOUN, ротный_ADJ
+
+самотека_NOUN: 0.003722155699506402
+	Soviet: мировоззренческий_ADJ, общеполитический_ADJ, анархический_ADJ, альтернативный_ADJ, административно-командный_ADJ, двухпалатный_ADJ, филантропический_ADJ, правовой_ADJ, просветительный_ADJ, упорядочение_NOUN
+	Post-soviet: садовый_PROPN, пороша_NOUN, магистраль_VERB, штрек_NOUN, роща_PROPN, яуза_NOUN, приварять_VERB, пловек_NOUN, насыпь_NOUN, серпуховский_ADJ
+

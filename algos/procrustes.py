@@ -1,5 +1,6 @@
 import gensim
 import numpy as np
+from tqdm import tqdm
 from utils import log
 from utils import intersection_align_gensim
 
@@ -46,6 +47,17 @@ class ProcrustesAligner(object):
         vector2 = self.w2v2_changed.wv[word]
         score = np.dot(vector1, vector2)  # More straightforward computation
         return score
+    
+    def run_scores(self):
+        result = list()
+        
+        for word in tqdm(set(self.w2v1.wv.vocab).intersection(set(self.w2v2_changed.wv.vocab))):
+            vector1 = self.w2v1.wv[word]
+            vector2 = self.w2v2_changed.wv[word]
+            score = np.dot(vector1, vector2)  # More straightforward computation
+            result.append((word, score))
+            
+        return sorted(result, key = lambda x: x[-1])
 
     def get_changes(self, top_n_changed_words: int):
         log('Doing procrustes')
